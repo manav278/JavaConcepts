@@ -6,8 +6,6 @@ abstract class Parent {
     abstract public void hello();
 }
 
-// --------------------------------------
-
 class Child1 extends Parent {
     public void thankyou() {
         System.out.println("Thankyou");
@@ -18,8 +16,6 @@ class Child1 extends Parent {
     }
 }
 
-// --------------------------------------
-
 abstract class Child2 extends Parent {
     public void welcome() {
         System.out.println("Welcome everyone");
@@ -28,7 +24,7 @@ abstract class Child2 extends Parent {
 
 public class Abstractclass {
     public static void main(String[] args) {
-        Child1 c=new Child1();
+        Child1 c = new Child1();
         c.bye();
         c.hello();
         c.thankyou();
